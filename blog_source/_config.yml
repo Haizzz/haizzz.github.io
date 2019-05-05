@@ -1,7 +1,8 @@
 # config for yml
-destination         : ./posts
+source              : .
+destination         : ../blog
 title               : Anh
 description         : I wanted to rule the world when I was younger. But first, I'll write a blog
 version             : 0.1
-baseurl             : /blog/posts/
-posturlbase         : /blog/posts
+baseurl             : /blog/
+posturlbase         : /blog
