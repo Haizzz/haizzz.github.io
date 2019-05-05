@@ -1,7 +1,6 @@
 ---
 layout: post
 title: 3 Things I Learnt Growing Up
-date: 2019-05-05
 ---
 Everyone have their own stories about growing up and realising they'll have to face the real 
 world at some point. Here are the 3 most important ones for me.
