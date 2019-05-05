@@ -16,7 +16,8 @@ title: POST NAME HERE
 ```
 
 3. Make jekyll build the new post
-Run the following command
+Run the following commands
 ```shell
+$ cd blog_source
 $ jekyll build
 ```
