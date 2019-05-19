@@ -1,8 +1,10 @@
 # config for yml
 source              : .
 destination         : ../blog
-title               : Anh
-description         : I wanted to rule the world when I was younger. But first, I'll write a blog
+title               : Anh Le Blog
+description         : A software developer's blog about anything and everything
 version             : 0.1
 baseurl             : /blog/
 posturlbase         : /blog
+plugins             :
+  - jekyll-seo-tag
