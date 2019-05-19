@@ -8,3 +8,8 @@ baseurl             : /blog/
 posturlbase         : /blog
 plugins             :
   - jekyll-seo-tag
+social              :
+  name: Anh Le
+  links:
+    - https://www.linkedin.com/in/anhvietle/
+    - https://github.com/haizzz/
