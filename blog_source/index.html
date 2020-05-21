@@ -11,6 +11,9 @@ title: Blog
         </a>
         <p>{{ post.date | date_to_string }}</p>
         <span class="text-muted">{{ post.excerpt }}</span>
+        {% if post.image %}
+        <img src="{{post.image}}}">
+        {% endif %}
     </li>
     {% endfor %}
 </ul>
