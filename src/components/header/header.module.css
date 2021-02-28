@@ -1,9 +1,10 @@
 .navContainer {
-  padding-top: 10px;
+  background-color: #154c79;
 }
 
 .navText {
   font-size: 1rem;
+  color: white;
 }
 
 .navTitle {
