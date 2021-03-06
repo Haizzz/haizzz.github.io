@@ -2,6 +2,7 @@ import React from 'react';
 
 import styles from './aboutCard.module.css';
 import profilePic from '../../images/profile_big.jpg';
+import { Socials } from '../socials/socials';
 
 var classNames = require('classnames');
 
@@ -18,6 +19,7 @@ export const AboutCard = () => {
             I'm a board member at TEDxUWA helping the team spread great ideas
             with the community.
           </p>
+          <Socials />
         </div>
       </div>
       <div className={classNames(styles.imageContainer)}>

@@ -1,6 +1,6 @@
 import React from 'react';
-import { AboutCard } from '../components/aboutCard/aboutCard';
 import { Layout } from '../components/layout';
+import { AboutCard } from '../components/aboutCard/aboutCard';
 
 export default function MainPage() {
   return (
