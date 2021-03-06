@@ -30,6 +30,8 @@
   height: 100vh;
   overflow: hidden;
   object-fit: cover;
+  display: block;
+  margin: 0;
 }
 
 .aboutHeading {
