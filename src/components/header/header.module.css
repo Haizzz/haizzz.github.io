@@ -1,12 +1,20 @@
 .navContainer {
-  background-color: #154c79;
+  position: fixed;
+}
+
+.subNav {
+  float: right;
 }
 
 .navText {
   font-size: 1rem;
-  color: white;
 }
 
 .navTitle {
   font-weight: bold;
+}
+
+.headerOffset {
+  height: 34px;
+  width: 100%;
 }
