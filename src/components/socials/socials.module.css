@@ -1,0 +1,10 @@
+.link {
+  display: block;
+  color: rgb(163, 163, 163);
+  line-height: 2rem;
+}
+
+.link:hover {
+  box-shadow: none;
+  color: rgb(97, 97, 97);
+}

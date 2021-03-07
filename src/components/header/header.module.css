@@ -1,0 +1,20 @@
+.navContainer {
+  position: fixed;
+}
+
+.subNav {
+  float: right;
+}
+
+.navText {
+  font-size: 1rem;
+}
+
+.navTitle {
+  font-weight: bold;
+}
+
+.headerOffset {
+  height: 34px;
+  width: 100%;
+}
