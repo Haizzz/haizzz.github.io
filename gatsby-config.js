@@ -1,8 +1,19 @@
 module.exports = {
   siteMetadata: {
     title: `Anh Le`,
-    description: `Hey! I'm Anh`,
+    description: `I'm Anh, a Software Engineer at Canva. Previously I worked as a consultant at PwC and a Backend Engineer at Unocart. Outside of work I'm a board member at TEDxUWA`,
     author: `Anh Le`,
+    url: 'https://imanhle.com',
+    keywords: [
+      'Anh Le',
+      'Anh',
+      'Anh Viet Le',
+      'Software Engineer',
+      'Developer',
+      'Programmer',
+      'TEDxUWA',
+      'Canva',
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -36,6 +47,6 @@ module.exports = {
     `gatsby-plugin-gatsby-cloud`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    `gatsby-plugin-offline`,
+    // `gatsby-plugin-offline`,
   ],
 };
