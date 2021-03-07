@@ -15,7 +15,7 @@ export const Header = () => {
           styles.navContainer
         )}
       >
-        <Link
+        {/* <Link
           to='/'
           className={classNames(
             'pure-menu-heading',
@@ -42,7 +42,7 @@ export const Header = () => {
               Contact
             </Link>
           </li>
-        </ul>
+        </ul> */}
       </div>
       <div className={styles.headerOffset}></div>
     </>

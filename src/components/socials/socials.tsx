@@ -12,7 +12,7 @@ export function Socials() {
         L: in/anhvietle
       </a>
       <a href='https://github.com/Haizzz/' className={styles.link}>
-        G: /Haizzz
+        G: @haizzz
       </a>
     </>
   );
