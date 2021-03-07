@@ -1,7 +1,7 @@
 import React from 'react';
 
 import styles from './aboutCard.module.css';
-import profilePic from '../../images/profile_big.jpg';
+import profilePic from '../../images/profile_optimised.jpg';
 import { Socials } from '../socials/socials';
 
 var classNames = require('classnames');
