@@ -1,7 +1,8 @@
 .link {
   display: block;
   color: rgb(163, 163, 163);
-  line-height: 2rem;
+  font-size: calc(16px + 6 * ((100vw - 320px) / 680));
+  line-height: calc(24px + 6 * ((100vw - 320px) / 680));
 }
 
 .link:hover {
