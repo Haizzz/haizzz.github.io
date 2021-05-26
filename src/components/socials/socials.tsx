@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styles from './socials.module.css';
+import * as styles from './socials.module.css';
 
 export function Socials() {
   return (

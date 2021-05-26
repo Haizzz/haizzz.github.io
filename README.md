@@ -7,7 +7,7 @@
 The site is made with Gatsby. To start the development server, run
 
 ```bash
-$ npm run develop
+$ yarn develop
 ```
 
 ### Deploy
@@ -15,5 +15,5 @@ $ npm run develop
 The site is deployed with `gh-pages`. To deploy, run
 
 ```bash
-$ npm run deploy
+$ yarn deploy
 ```

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import styles from './header.module.css';
+import * as styles from './header.module.css';
 
 var classNames = require('classnames');
 
