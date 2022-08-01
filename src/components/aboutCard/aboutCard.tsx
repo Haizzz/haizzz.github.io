@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import * as styles from './aboutCard.module.css';
-import profilePic from '../../images/profile_optimised.jpg';
-import { Socials } from '../socials/socials';
+import * as styles from "./aboutCard.module.css";
+import profilePic from "../../images/profile_optimised.jpg";
+import { Socials } from "../socials/socials";
+import { RecentWork } from "../recentWork/recentWork";
 
-var classNames = require('classnames');
+var classNames = require("classnames");
 
 export const AboutCard = () => {
   return (
@@ -20,6 +21,7 @@ export const AboutCard = () => {
             with the community.
           </p>
           <Socials />
+          <RecentWork />
         </div>
       </div>
       <div className={classNames(styles.imageContainer)}>

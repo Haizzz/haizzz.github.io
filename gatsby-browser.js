@@ -5,4 +5,4 @@
  */
 
 // You can delete this file if you're not using it
-import "./src/globals/pure-min.css"
+import "./src/globals/pure-min.css";

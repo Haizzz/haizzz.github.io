@@ -1,17 +1,17 @@
-import React from 'react';
-import { Link } from 'gatsby';
+import React from "react";
+import { Link } from "gatsby";
 
-import * as styles from './header.module.css';
+import * as styles from "./header.module.css";
 
-var classNames = require('classnames');
+var classNames = require("classnames");
 
 export const Header = () => {
   return (
     <>
       <div
         className={classNames(
-          'pure-menu',
-          'pure-menu-horizontal',
+          "pure-menu",
+          "pure-menu-horizontal",
           styles.navContainer
         )}
       >
