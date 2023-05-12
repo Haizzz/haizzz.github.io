@@ -24,7 +24,6 @@ export const SEO = (props: SEOProps) => {
   )
   const gtag = `
   window.dataLayer = window.dataLayer || [];
-  window.dataLayer.push();
   function gtag(){dataLayer.push(arguments);}
 
   gtag('js', new Date()); 
