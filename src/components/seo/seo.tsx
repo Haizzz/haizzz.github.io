@@ -36,7 +36,7 @@ export const SEO = (props: SEOProps) => {
       <meta name={'author'} content={site.siteMetadata.author} />
       <meta name={'keywords'} content={site.siteMetadata.keywords.join(', ')} />
       {/* Google tag (gtag.js) */}
-      <script src='https://www.googletagmanager.com/gtag/js?id=G-YZRXFJELKT'>{gtag}</script>
+      <script src='https://www.googletagmanager.com/gtag/js?id=G-YZRXFJELKT'></script>
       <script>{gtag}</script>
     </Helmet>
   )
