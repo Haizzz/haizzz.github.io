@@ -1,20 +1,13 @@
-import React from "react";
-import { Link } from "gatsby";
+import React from 'react'
 
-import * as styles from "./header.module.css";
+import * as styles from './header.module.css'
 
-var classNames = require("classnames");
+var classNames = require('classnames')
 
 export const Header = () => {
   return (
     <>
-      <div
-        className={classNames(
-          "pure-menu",
-          "pure-menu-horizontal",
-          styles.navContainer
-        )}
-      >
+      <div className={classNames('pure-menu', 'pure-menu-horizontal', styles.navContainer)}>
         {/* <Link
           to='/'
           className={classNames(
@@ -45,6 +38,9 @@ export const Header = () => {
         </ul> */}
       </div>
       <div className={styles.headerOffset}></div>
+      {/* Google tag (gtag.js) */}
+      <script async src='https://www.googletagmanager.com/gtag/js?id=G-YZRXFJELKT'></script>
+      <script>gtag('js', new Date()); gtag('config', 'G-YZRXFJELKT');</script>
     </>
-  );
-};
+  )
+}
