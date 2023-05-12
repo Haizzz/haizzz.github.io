@@ -38,9 +38,6 @@ export const Header = () => {
         </ul> */}
       </div>
       <div className={styles.headerOffset}></div>
-      {/* Google tag (gtag.js) */}
-      <script async src='https://www.googletagmanager.com/gtag/js?id=G-YZRXFJELKT'></script>
-      <script>gtag('js', new Date()); gtag('config', 'G-YZRXFJELKT');</script>
     </>
   )
 }
