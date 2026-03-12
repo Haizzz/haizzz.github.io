@@ -14,6 +14,9 @@ export function Socials() {
       <a href="https://github.com/Haizzz/" className={styles.link}>
         G: @haizzz
       </a>
+      <a href="https://open.substack.com/pub/anhvietle" className={styles.link}>
+        S: substack/anhvietle
+      </a>
     </>
   );
 }
