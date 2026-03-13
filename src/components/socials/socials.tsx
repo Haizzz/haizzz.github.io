@@ -6,13 +6,16 @@ export function Socials() {
   return (
     <>
       <a href="mailto:hi@imanhle.com" className={styles.link}>
-        E: hi@imanhle.com
+        Email: hi@imanhle.com
       </a>
       <a href="https://www.linkedin.com/in/anhvietle/" className={styles.link}>
-        L: in/anhvietle
+        LinkedIn: in/anhvietle
+      </a>
+      <a href="https://open.substack.com/pub/anhvietle" className={styles.link}>
+        Substack: substack/anhvietle
       </a>
       <a href="https://github.com/Haizzz/" className={styles.link}>
-        G: @haizzz
+        GitHub: @haizzz
       </a>
     </>
   );
