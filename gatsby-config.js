@@ -16,6 +16,13 @@ module.exports = {
     ],
   },
   plugins: [
+    {
+      resolve: `gatsby-source-rss-feed`,
+      options: {
+        url: `https://anhvietle.substack.com/feed`,
+        name: `Substack`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
