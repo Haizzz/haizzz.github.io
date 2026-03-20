@@ -1,4 +1,5 @@
 module.exports = {
+  trailingSlash: "never",
   siteMetadata: {
     title: `Anh Le`,
     description: `I'm Anh, a Software Engineer at Canva. Previously I worked as a consultant at PwC and a Backend Engineer at Unocart. Outside of work I'm a board member at TEDxUWA`,

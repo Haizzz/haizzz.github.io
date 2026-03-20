@@ -6,7 +6,7 @@ const SUBSTACK_URL = "https://open.substack.com/pub/anhvietle";
 export const RecentWork = () => {
   const data = useStaticQuery(graphql`
     query RecentSubstackPosts {
-      allFeedSubstack(sort: { fields: pubDate, order: DESC }, limit: 5) {
+      allFeedSubstack(sort: { pubDate: DESC }, limit: 5) {
         nodes {
           title
           link
